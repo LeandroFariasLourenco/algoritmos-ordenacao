@@ -1,0 +1,17 @@
+{
+  "name": "algoritmos-ordenacao",
+  "version": "1.0.0",
+  "description": "Repositório contendo os tradicionais algoritmos de programação na linguagem typescript",
+  "main": "não possui",
+  "scripts": {
+    "start": "npm run ts-compile && npm run js-interpreter",
+    "ts-compile": "tsc",
+    "js-interpreter": "nodemon ./build/index.js"
+  },
+  "author": "Leandro Farias Lourenço",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.5"
+  }
+}

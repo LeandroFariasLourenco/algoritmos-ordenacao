@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "sourceMap": false,
+    "removeComments": true,
+    "outDir": "build",
+    "rootDir": "./",
+    "watch": false,
+    "inlineSourceMap": false
+  },
+  "files": [
+    "./index.ts"
+  ],
+  "compileOnSave": true,
+}
