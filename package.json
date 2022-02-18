@@ -5,8 +5,8 @@
   "main": "não possui",
   "scripts": {
     "start": "npm run ts-compile && npm run js-interpreter",
-    "ts-compile": "tsc",
-    "js-interpreter": "nodemon ./build/index.js"
+    "ts:compile": "tsc",
+    "js:interpreter": "nodemon ./build/index.js"
   },
   "author": "Leandro Farias Lourenço",
   "license": "ISC",

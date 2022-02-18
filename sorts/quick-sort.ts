@@ -8,7 +8,7 @@
  * elemento, é utilizado para montar uma nova lista de baixo para cima com o elemento pivô sempre permanecendo
  * no meio.
  * @tutorial (https://youtu.be/P6XGSKO2RzI)
- * @returns um novo array com os valores ordenados e com o tempo de execução do algoritmo
+ * @returns um novo array com os valores ordenados
  * */
 const quickSort = (lista: number[]): number[] => {
   const listaOrdenada: number[] = [...lista];
